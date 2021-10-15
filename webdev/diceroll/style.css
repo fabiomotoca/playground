@@ -1,0 +1,26 @@
+#button, #dices {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+#players {
+    margin: 1.5rem;
+}
+
+#title {
+    color: #FF2442;
+    margin: 1.5rem;
+}
+
+.gold {
+    color: #FFB830;
+}
+
+.game, .header{
+    text-align: center;
+}
+
+
+
+
+
