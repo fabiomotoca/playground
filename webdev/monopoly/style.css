@@ -1,3 +1,16 @@
+span {
+    background-color: whitesmoke;
+    display: inline-block;
+    opacity: 0.6;
+    width: 100%;
+}
+
+.clover {
+    background-color: none;
+    background-image: url('images/clover.jpeg');
+    background-size: cover;
+}
+
 .flex-container {
     background-color: greenyellow;
     display: flex;
@@ -14,11 +27,12 @@
     justify-content: center;
     margin: 1px 1px 1px 1px;
     text-align: center;
+    visibility: hidden;
 }
 
 .spot {
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
     display: flex;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
@@ -27,4 +41,143 @@
     margin: 1px 1px 1px 1px;
     text-align: center;
     width: 85px;
+}
+
+.stockco {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#abudhabi {
+    background-color: none;
+    background-image: url('images/abudhabi.jpeg');
+    background-size: cover;
+}
+#beijing {
+    background-color: none;
+    background-image: url('images/beijing.webp');
+    background-size: cover;
+}
+#berlim {
+    background-color: none;
+    background-image: url('images/berlim.jpeg');
+    background-size: cover;
+}
+#board {
+    background: #17202A;
+}
+#buenosaires {
+    background-color: none;
+    background-image: url('images/buenosaires.jpeg');
+    background-size: cover;
+}
+#cairo {
+    background-color: none;
+    background-image: url('images/cairo.jpeg');
+    background-size: cover;
+}
+#canberra {
+    background-color: none;
+    background-image: url('images/canberra.jpeg');
+    background-size: cover;
+}
+#capetown {
+    background-color: none;
+    background-image: url('images/capetown.jpeg');
+    background-size: cover;
+}
+#doha {
+    background-color: none;
+    background-image: url('images/doha.png');
+    background-size: cover;
+}
+#gotojail {
+    background-color: none;
+    background-image: url('images/gotojail.jpeg');
+    background-size: cover;
+}
+#guatemala {
+    background-color: none;
+    background-image: url('images/guatemala.jpeg');
+    background-size: cover;
+}
+#holiday {
+    background-color: none;
+    background-image: url('images/holiday.jpeg');
+    background-size: cover;
+}
+#jailvisit {
+    background-color: none;
+    background-image: url('images/jailvisit.jpeg');
+    background-size: cover;
+}
+#london {
+    background-color: none;
+    background-image: url('images/london.jpeg');
+    background-size: cover;
+}
+#luanda {
+    background-color: none;
+    background-image: url('images/luanda.jpeg');
+    background-size: cover;
+}
+#mexicocity {
+    background-color: none;
+    background-image: url('images/mexicocity.jpeg');
+    background-size: cover;
+}
+#montevideo {
+    background-color: none;
+    background-image: url('images/montevideo.jpeg');
+    background-size: cover;
+}
+#ottawa {
+    background-color: none;
+    background-image: url('images/ottawa.jpeg');
+    background-size: cover;
+}
+#paris {
+    background-color: none;
+    background-image: url('images/paris.jpeg');
+    background-size: cover;
+}
+#sanjose {
+    background-color: none;
+    background-image: url('images/sanjose.jpg');
+    background-size: cover;
+}
+#santiago {
+    background-color: none;
+    background-image: url('images/santiago.jpeg');
+    background-size: cover;
+}
+#seoul {
+    background-color: none;
+    background-image: url('images/seoul.jpeg');
+    background-size: cover;
+}
+#start {
+    background-color: none;
+    background-image: url('images/start.png');
+    background-size: cover;
+}
+#riyadh {
+    background-color: none;
+    background-image: url('images/riyadh.jpeg');
+    background-size: cover;
+}
+#tokyo {
+    background-color: none;
+    background-image: url('images/tokyo.jpeg');
+    background-size: cover;
+}
+#washington {
+    background-color: none;
+    background-image: url('images/washington.jpeg');
+    background-size: cover;
+}
+#wellington {
+    background-color: none;
+    background-image: url('images/wellington.jpeg');
+    background-size: cover;
 }
