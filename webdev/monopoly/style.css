@@ -1,0 +1,30 @@
+.flex-container {
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 957px;
+}
+
+.hidden {
+    align-items: center;
+    background-color: greenyellow;
+    display: flex;
+    flex: 0 0 781px;
+    height: 75px;
+    justify-content: center;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+}
+
+.spot {
+    align-items: center;
+    background-color: #f1f1f1;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    height: 75px;
+    justify-content: center;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    width: 85px;
+}
