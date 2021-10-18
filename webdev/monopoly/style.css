@@ -7,6 +7,11 @@ span {
   width: 100%;
 }
 
+span:hover {
+    font-weight: 900;
+    opacity: 1;
+}
+
 .border-top,
 .border-right,
 .border-bottom,
@@ -53,7 +58,7 @@ span {
 
 .border-blue {
   border-style: solid;
-  border-color: royalblue;
+  border-color: blue;
   border-width: 0 5px 0 0;
 }
 
@@ -77,19 +82,19 @@ span {
 
 .border-magenta {
   border-style: solid;
-  border-color: indigo;
+  border-color: darkviolet;
   border-width: 0 5px 0 0;
 }
 
 .border-magenta-bottom {
   border-style: solid;
-  border-color: darkorchid;
+  border-color: darkviolet;
   border-width: 0 0 5px 0;
 }
 
 .border-orange {
   border-style: solid;
-  border-color: darkorange;
+  border-color: orange;
   border-width: 5px 0 0 0;
 }
 
@@ -143,17 +148,18 @@ span {
   width: 85px;
 }
 
-.spot:hover {
-  height: 70px;
-  width: 80px;
-}
-
 .stockco {
   background-color: black;
   color: whitesmoke;
   font-family: "Ubuntu", sans-serif;
   font-size: 12px;
 }
+
+.stockco:hover {
+    background-color: black;
+    font-size: 14px;
+    font-weight: 900;
+  }
 
 #board {
   background-color: whitesmoke;
@@ -165,7 +171,6 @@ span {
 
 #boardtext {
   align-items: center;
-  background: whitesmoke;
   color: goldenrod;
   display: flex;
   flex: 0 0 781px;
