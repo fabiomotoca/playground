@@ -1,183 +1,329 @@
 span {
-    background-color: whitesmoke;
-    display: inline-block;
-    opacity: 0.6;
-    width: 100%;
+  background-color: whitesmoke;
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.border-top,
+.border-right,
+.border-bottom,
+.border-left,
+.border-top-right,
+.border-top-left,
+.border-right-bottom,
+.border-left-bottom {
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.border-top {
+  border-width: 5px 0 0 0;
+}
+
+.border-right {
+  border-width: 0 5px 0 0;
+}
+
+.border-bottom {
+  border-width: 0 0 5px 0;
+}
+
+.border-left {
+  border-width: 0 0 0 5px;
+}
+
+.border-top-right {
+  border-width: 5px 5px 0 0;
+}
+
+.border-top-left {
+  border-width: 5px 0 0 5px;
+}
+
+.border-right-bottom {
+  border-width: 0 5px 5px 0;
+}
+
+.border-left-bottom {
+  border-width: 0 0 5px 5px;
+}
+
+.border-blue {
+  border-style: solid;
+  border-color: royalblue;
+  border-width: 0 5px 0 0;
+}
+
+.border-green-top {
+  border-style: solid;
+  border-color: green;
+  border-width: 5px 0 0 0;
+}
+
+.border-green-left {
+  border-style: solid;
+  border-color: green;
+  border-width: 0 0 0 5px;
+}
+
+.border-red {
+  border-style: solid;
+  border-color: crimson;
+  border-width: 0 0 5px 0;
+}
+
+.border-magenta {
+  border-style: solid;
+  border-color: indigo;
+  border-width: 0 5px 0 0;
+}
+
+.border-magenta-bottom {
+  border-style: solid;
+  border-color: darkorchid;
+  border-width: 0 0 5px 0;
+}
+
+.border-orange {
+  border-style: solid;
+  border-color: darkorange;
+  border-width: 5px 0 0 0;
+}
+
+.border-pink {
+  border-style: solid;
+  border-color: #ff00ff;
+  border-width: 0 5px 0 0;
+}
+
+.border-yellow {
+  border-style: solid;
+  border-color: yellow;
+  border-width: 0 0 0 5px;
 }
 
 .clover {
-    background-color: none;
-    background-image: url('images/clover.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/clover.jpeg");
+  background-size: cover;
 }
 
 .flex-container {
-    background-color: greenyellow;
-    display: flex;
-    flex-wrap: wrap;
-    width: 957px;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 967px;
 }
 
 .hidden {
-    align-items: center;
-    background-color: greenyellow;
-    display: flex;
-    flex: 0 0 781px;
-    height: 75px;
-    justify-content: center;
-    margin: 1px 1px 1px 1px;
-    text-align: center;
-    visibility: hidden;
+  align-items: center;
+  background-color: greenyellow;
+  display: flex;
+  flex: 0 0 781px;
+  height: 75px;
+  justify-content: center;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+  visibility: hidden;
 }
 
 .spot {
-    align-items: center;
-    background-color: whitesmoke;
-    display: flex;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
-    height: 75px;
-    justify-content: center;
-    margin: 1px 1px 1px 1px;
-    text-align: center;
-    width: 85px;
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+  width: 85px;
+}
+
+.spot:hover {
+  height: 70px;
+  width: 80px;
 }
 
 .stockco {
-    background-color: black;
-    color: whitesmoke;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+}
+
+#board {
+  background-color: whitesmoke;
+  /*
+  background-image: url("images/board-bg.jpeg");
+  background-repeat: repeat;
+  */
+}
+
+#boardtext {
+  align-items: center;
+  background: whitesmoke;
+  color: goldenrod;
+  display: flex;
+  flex: 0 0 781px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+  height: 75px;
+  justify-content: center;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
 }
 
 #abudhabi {
-    background-color: none;
-    background-image: url('images/abudhabi.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/abudhabi.jpeg");
+  background-size: cover;
 }
+
 #beijing {
-    background-color: none;
-    background-image: url('images/beijing.webp');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/beijing.webp");
+  background-size: cover;
 }
+
 #berlim {
-    background-color: none;
-    background-image: url('images/berlim.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/berlim.jpeg");
+  background-size: cover;
 }
-#board {
-    background: #17202A;
-}
+
 #buenosaires {
-    background-color: none;
-    background-image: url('images/buenosaires.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/buenosaires.jpeg");
+  background-size: cover;
 }
+
 #cairo {
-    background-color: none;
-    background-image: url('images/cairo.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/cairo.jpeg");
+  background-size: cover;
 }
+
 #canberra {
-    background-color: none;
-    background-image: url('images/canberra.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/canberra.jpeg");
+  background-size: cover;
 }
+
 #capetown {
-    background-color: none;
-    background-image: url('images/capetown.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/capetown.jpeg");
+  background-size: cover;
 }
+
 #doha {
-    background-color: none;
-    background-image: url('images/doha.png');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/doha.png");
+  background-size: cover;
 }
+
 #gotojail {
-    background-color: none;
-    background-image: url('images/gotojail.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/gotojail.jpeg");
+  background-size: cover;
 }
+
 #guatemala {
-    background-color: none;
-    background-image: url('images/guatemala.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/guatemala.jpeg");
+  background-size: cover;
 }
+
 #holiday {
-    background-color: none;
-    background-image: url('images/holiday.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/holiday.jpeg");
+  background-size: cover;
 }
+
 #jailvisit {
-    background-color: none;
-    background-image: url('images/jailvisit.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/jailvisit.jpeg");
+  background-size: cover;
 }
+
 #london {
-    background-color: none;
-    background-image: url('images/london.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/london.jpeg");
+  background-size: cover;
 }
+
 #luanda {
-    background-color: none;
-    background-image: url('images/luanda.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/luanda.jpeg");
+  background-size: cover;
 }
+
 #mexicocity {
-    background-color: none;
-    background-image: url('images/mexicocity.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/mexicocity.jpeg");
+  background-size: cover;
 }
+
 #montevideo {
-    background-color: none;
-    background-image: url('images/montevideo.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/montevideo.jpeg");
+  background-size: cover;
 }
+
 #ottawa {
-    background-color: none;
-    background-image: url('images/ottawa.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/ottawa.jpeg");
+  background-size: cover;
 }
+
 #paris {
-    background-color: none;
-    background-image: url('images/paris.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/paris.jpeg");
+  background-size: cover;
 }
+
 #sanjose {
-    background-color: none;
-    background-image: url('images/sanjose.jpg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/sanjose.jpg");
+  background-size: cover;
 }
+
 #santiago {
-    background-color: none;
-    background-image: url('images/santiago.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/santiago.jpeg");
+  background-size: cover;
 }
+
 #seoul {
-    background-color: none;
-    background-image: url('images/seoul.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/seoul.jpeg");
+  background-size: cover;
 }
-#start {
-    background-color: none;
-    background-image: url('images/start.png');
-    background-size: cover;
-}
+
 #riyadh {
-    background-color: none;
-    background-image: url('images/riyadh.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/riyadh.jpeg");
+  background-size: cover;
 }
+
 #tokyo {
-    background-color: none;
-    background-image: url('images/tokyo.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/tokyo.jpeg");
+  background-size: cover;
 }
+
 #washington {
-    background-color: none;
-    background-image: url('images/washington.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/washington.jpeg");
+  background-size: cover;
 }
+
 #wellington {
-    background-color: none;
-    background-image: url('images/wellington.jpeg');
-    background-size: cover;
+  background-color: none;
+  background-image: url("images/wellington.jpeg");
+  background-size: cover;
 }

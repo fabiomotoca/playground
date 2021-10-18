@@ -6,64 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Monopoly Board by fabiomotoca</title>
   </head>
   <body>
     <div id="board" class="flex-container">
-      <div id="start" class="spot a-center"></div>
-      <div id="cairo" class="spot"><span>Cairo<br/>EGYPT</span></div>
-      <div id="luanda" class="spot"><span>Luanda<br/>ANGOLA</span></div>
-      <div id="ipcc" class="spot a-center stockco">IPCC</div>
-      <div id="capetown" class="spot"><span>Cape Town<br/>SOUTH AFRICA</span></div>
-      <div id="doha" class="spot"><span>Doha<br/>QATAR</div></span>
-      <div class="spot a-center clover"><span>Luck<br/>or<br/>Setback</span></div>
-      <div id="riyadh" class="spot"><span>Riyadh<br/>SOUDI ARABIA</span></div>
-      <div id="omc" class="spot a-center stockco">OMC</div>
-      <div id="abudhabi" class="spot"><span>Abu Dhabi<br/>EMIRATES</span></div>
-      <div id="jailvisit" class="spot a-center"><span>Jail</span></div>
-      <div id="washington" class="spot"><span>Washington<br/>EUA</div></span>
+      <div id="start" class="spot a-center border-top-left"><i class="far fa-arrow-alt-circle-right fa-1x"></i><span>Start</span></div>
+      <div id="cairo" class="spot border-green-top"><span>Cairo<br/>EGYPT</span></div>
+      <div id="luanda" class="spot border-green-top"><span>Luanda<br/>ANGOLA</span></div>
+      <div id="ipcc" class="spot a-center stockco border-top">IPCC</div>
+      <div id="capetown" class="spot border-green-top"><span>Cape Town<br/>SOUTH AFRICA</span></div>
+      <div id="doha" class="spot border-orange"><span>Doha<br/>QATAR</div></span>
+      <div class="spot clover border-top"><span>Luck<br/>or<br/>Setback</span></div>
+      <div id="riyadh" class="spot border-orange"><span>Riyadh<br/>SOUDI ARABIA</span></div>
+      <div id="omc" class="spot stockco border-top">OMC</div>
+      <div id="abudhabi" class="spot border-orange"><span>Abu Dhabi<br/>EMIRATES</span></div>
+      <div id="jailvisit" class="spot a-center border-top-right"><span>Jail</span></div>
+      <div id="washington" class="spot border-yellow"><span>Washington<br/>EUA</div></span>
       <div class="hidden"></div>
-      <div class="spot a-center clover"><span>Luck<br/>or<br/>Setback</span></div>
-      <div class="spot a-center clover"><span>Luck<br/>or<br/>Setback</span></div>
+      <div class="spot a-center clover border-right"><span>Luck<br/>or<br/>Setback</span></div>
+      <div class="spot a-center clover border-left"><span>Luck<br/>or<br/>Setback</span></div>
       <div class="hidden"></div>
-      <div id="santiago" class="spot"><span>Santiago<br/>CHILE</span></div>
-      <div id="ottawa" class="spot"><span>Ottawa<br/>CANADA</span></div>
+      <div id="santiago" class="spot border-blue"><span>Santiago<br/>CHILE</span></div>
+      <div id="ottawa" class="spot border-yellow"><span>Ottawa<br/>CANADA</span></div>
       <div class="hidden"></div>
-      <div id="montevideo" class="spot"><span>Montevideo<br/>URUGUAY</span></div>
-      <div id="otan" class="spot a-center stockco">OTAN</div>
+      <div id="montevideo" class="spot border-blue"><span>Montevideo<br/>URUGUAY</span></div>
+      <div id="otan" class="spot a-center stockco border-left">OTAN</div>
       <div class="hidden"></div>
-      <div id="incometax" class="spot a-center stockco">Receive<br/>Income Tax</div>
-      <div id="mexicocity" class="spot"><span>Mexico City<br/>MEXICO</span></div>
+      <div id="incometax" class="spot stockco border-right">Receive<br/>Income Tax</div>
+      <div id="mexicocity" class="spot border-yellow"><span>Mexico City<br/>MEXICO</span></div>
+      <div id="boardtext">MONOPOLY</div>
+      <div id="buenosaires" class="spot border-blue"><span>Buenos Aires<br/>ARGENTINA</span></div>
+      <div id="tokyo" class="spot border-green-left"><span>Tokyo<br/>JAPAN</span></div>
       <div class="hidden"></div>
-      <div id="buenosaires" class="spot"><span>Buenos Aires<br/>ARGENTINA</span></div>
-      <div id="tokyo" class="spot"><span>Tokyo<br/>JAPAN</span></div>
+      <div id="onu" class="spot a-center stockco border-right">ONU</div>
+      <div id="beijing" class="spot border-green-left"><span>Beijing<br/>CHINA</span></div>
       <div class="hidden"></div>
-      <div id="onu" class="spot a-center stockco">ONU</div>
-      <div id="beijing" class="spot"><span>Beijing<br/>CHINA</span></div>
+      <div id="canberra" class="spot border-pink"><span>Canberra<br/>AUSTRALIA</span></div>
+      <div class="spot a-center clover border-left"><span>Luck<br/>or<br/>Setback</span></div>
       <div class="hidden"></div>
-      <div id="canberra" class="spot"><span>Canberra<br/>AUSTRALIA</span></div>
-      <div class="spot a-center clover"><span>Luck<br/>or<br/>Setback</span></div>
+      <div id="wellington" class="spot border-pink"><span>Wellington<br/>NEW ZELAND</span></div>
+      <div id="seoul" class="spot border-green-left"><span>Seoul<br/>SOUTH KOREA</span></div>
       <div class="hidden"></div>
-      <div id="wellington" class="spot"><span>Wellington<br/>NEW ZELAND</span></div>
-      <div id="seoul" class="spot"><span>Seoul<br/>SOUTH KOREA</span></div>
-      <div class="hidden"></div>
-      <div id="guatemala" class="spot"><span>Guatemala City<br/>GUATEMALA</span></div>
-      <div id="gotojail" class="spot a-center"></div>
-      <div id="oms" class="spot a-center stockco">OMS</div>
-      <div id="london" class="spot"><span>London<br/>ENGLAND</span></div>
-      <div class="spot a-center clover"><span>Luck<br/>or<br/>Setback</span></div>
-      <div id="berlim" class="spot"><span>Berlim<br/>GERMANY</span></div>
-      <div id="paris" class="spot"><span>Paris<br/>FRANCE</span></div>
-      <div class="spot a-center clover"><span>Luck<br/>or<br/>Setback</span></div>
-      <div id="payfmi" class="spot a-center stockco">Pay<br/>FMI</div>
-      <div id="oit" class="spot a-center stockco">OIT</div>
-      <div id="sanjose" class="spot"><span>San Jose<br/>COSTA RICA</span></div>
-      <div id="holiday" class="spot a-center"><span>Holiday</span></div>
+      <div id="guatemala" class="spot border-magenta"><span>Guatemala City<br/>GUATEMALA</span></div>
+      <div id="gotojail" class="spot a-center border-left-bottom"></div>
+      <div id="oms" class="spot a-center stockco border-bottom">OMS</div>
+      <div id="london" class="spot border-red"><span>London<br/>ENGLAND</span></div>
+      <div class="spot a-center clover border-bottom"><span>Luck<br/>or<br/>Setback</span></div>
+      <div id="berlim" class="spot border-red"><span>Berlim<br/>GERMANY</span></div>
+      <div id="paris" class="spot border-red"><span>Paris<br/>FRANCE</span></div>
+      <div class="spot a-center clover border-bottom"><span>Luck<br/>or<br/>Setback</span></div>
+      <div id="payfmi" class="spot a-center stockco border-bottom">Pay<br/>FMI</div>
+      <div id="oit" class="spot a-center stockco border-bottom">OIT</div>
+      <div id="sanjose" class="spot border-magenta-bottom"><span>San Jose<br/>COSTA RICA</span></div>
+      <div id="holiday" class="spot a-center border-right-bottom"><span>Holiday</span></div>
     </div>
     <script
       src="https://kit.fontawesome.com/c1113ebd9c.js"
