@@ -1,26 +1,17 @@
-#button, #dices {
-    text-align: center;
-    margin: 2.5rem;
-}
-
-#players {
-    margin: 1.5rem;
-}
-
-#title {
-    color: #FF2442;
-    margin: 1.5rem;
-}
-
-.gold {
-    color: #FFB830;
-}
-
-.game, .header{
+body {
     text-align: center;
 }
 
+.btn {
+    margin-top: 40px;
+}
 
+.col {
+    display: inline-block;
+    width: 120px;
+}
 
-
-
+.row {
+    margin: auto;
+    width: 50%;
+}

@@ -6,7 +6,7 @@ const soundMap = {
   j: "sounds/snare.mp3",
   k: "sounds/crash.mp3",
   l: "sounds/kick-bass.mp3",
-}
+};
 
 const buttonList = document.querySelectorAll(".drum").forEach(function () {
   this.addEventListener("click", handleClick);
@@ -15,15 +15,27 @@ const buttonList = document.querySelectorAll(".drum").forEach(function () {
 function handleClick() {
   let selected = document.activeElement.innerHTML;
   playDrum(selected);
+  btnAnimation(selected);
 }
 
 document.addEventListener("keydown", function (event) {
   console.log(event);
   console.log(event.key);
   playDrum(event.key);
+  btnAnimation(event.key);
 });
 
 function playDrum(sound) {
   let audio = new Audio(soundMap[sound]);
   audio.play();
+}
+
+function btnAnimation(button) {
+  let selectedKey = document.querySelector("." + button);
+
+  selectedKey.classList.add("pressed");
+
+  setTimeout(function () {
+    selectedKey.classList.remove("pressed");
+  }, 100);
 }
