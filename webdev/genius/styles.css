@@ -1,0 +1,60 @@
+/* 
+Palette: 
+https://colorhunt.co/palette/a2d2fffef9efff865efee440
+*/
+
+body {
+  text-align: center;
+  background-color: #a2d2ff;
+}
+
+.header {
+  color: #fef9ef;
+  display: inline-block;
+  font-size: 3rem;
+  width: 40%;
+}
+
+.title {
+  display: block;
+  margin-top: 15px;
+}
+
+.progress {
+  display: block;
+  margin: 35px;
+}
+
+.square {
+  border-style: solid;
+  border-width: 10px;
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  margin: 0;
+}
+
+.blue {
+  border-radius: 5% 5% 65% 5%;
+  background-color: blue;
+}
+
+.yellow {
+  border-radius: 5% 65% 5% 5%;
+  background-color: yellow;
+}
+
+.red {
+  border-radius: 5% 5% 5% 65%;
+  background-color: red;
+}
+
+.green {
+  border-radius: 65% 5% 5% 5%;
+  background-color: green;
+}
+
+.flash {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
