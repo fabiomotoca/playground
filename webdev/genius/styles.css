@@ -8,6 +8,10 @@ body {
   background-color: #a2d2ff;
 }
 
+footer {
+  margin-top: 25px;
+}
+
 .header {
   color: #fef9ef;
   display: inline-block;
@@ -25,36 +29,43 @@ body {
   margin: 35px;
 }
 
-.square {
+.btn {
   border-style: solid;
-  border-width: 10px;
-  height: 120px;
-  width: 120px;
+  border-width: 5px;
+  border-color: black;
+  height: 125px;
+  width: 125px;
   display: inline-block;
-  margin: 0;
+  margin: 5px;
 }
 
-.blue {
-  border-radius: 5% 5% 65% 5%;
+#blue {
+  border-radius: 5% 5% 35% 5%;
   background-color: blue;
 }
 
-.yellow {
-  border-radius: 5% 65% 5% 5%;
+#yellow {
+  border-radius: 5% 35% 5% 5%;
   background-color: yellow;
 }
 
-.red {
-  border-radius: 5% 5% 5% 65%;
+#red {
+  border-radius: 5% 5% 5% 35%;
   background-color: red;
 }
 
-.green {
-  border-radius: 65% 5% 5% 5%;
+#green {
+  border-radius: 35% 5% 5% 5%;
   background-color: green;
 }
 
 .flash {
   box-shadow: 0 3px 4px 0 #dbedf3;
+  height: 120px;
+  width: 120px;
   opacity: 0.5;
+}
+
+.gameover {
+  background-color: red;
 }
