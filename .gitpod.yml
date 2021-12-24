@@ -1,4 +1,6 @@
 tasks:
-  - name: Terminal
-    init: sh ./tf_deploy.sh
-    command: terraform --version
+  - name: Terminal 1
+    init: echo 'init'
+    command: |
+      sh tf_deploy.sh
+      terraform --version
