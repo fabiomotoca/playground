@@ -8,8 +8,9 @@ Print out 100 numbers, from 1 to 100, but:
 for number in range(1, 101):
     if number % 3 == 0:
         print('Fizz')
-    if number % 5 == 0:
+    elif number % 5 == 0:
         print('Buzz')
-    if number % 3 == 0 and number % 5 == 0:
+    elif number % 3 == 0 and number % 5 == 0:
         print('FizzBuzz')
-    print(number)
+    else:
+        print(number)
